@@ -1,0 +1,39 @@
+cat > .gitignore <<'EOF'
+# NuEclipse / Eclipse workspace-local metadata
+.metadata/
+RemoteSystemsTempFiles/
+
+# Generated build directories
+Debug/
+Release/
+build/
+out/
+Output/
+Objects/
+Listings/
+
+# Compiler, assembler and linker outputs
+*.o
+*.obj
+*.d
+*.dep
+*.su
+*.elf
+*.axf
+*.map
+*.lst
+*.dump
+*.hex
+*.bin
+*.srec
+*.s19
+
+# Temporary and backup files
+*.tmp
+*.temp
+*.bak
+*.log
+*~
+.DS_Store
+Thumbs.db
+EOF
