@@ -37,3 +37,9 @@ Listings/
 .DS_Store
 Thumbs.db
 EOF
+
+# Standalone / Docker build outputs
+build/
+build-win/
+build-docker/
+build-jenkins/
